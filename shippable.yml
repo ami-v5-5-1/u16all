@@ -18,7 +18,7 @@ services:
   
 build:
   pre_ci_boot:
-    image_name: drydock/u16all
+    image_name: drydock/u16phpall
     image_tag: v5.5.1
     pull: true
     
@@ -47,4 +47,3 @@ build:
     - which mysql
     - mysql -V #|| true
     - which sqlite3 #|| true
-    
